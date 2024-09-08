@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="11.c" />
     <ClCompile Include="12.c" />
     <ClCompile Include="13.c" />
     <ClCompile Include="14.c" />
