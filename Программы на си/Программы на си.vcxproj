@@ -74,7 +74,6 @@
     <ClCompile Include="62.c" />
     <ClCompile Include="63.c" />
     <ClCompile Include="64.c" />
-    <ClCompile Include="8.c" />
     <ClCompile Include="9.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
