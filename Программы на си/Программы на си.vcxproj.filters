@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="7.c">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="8.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
