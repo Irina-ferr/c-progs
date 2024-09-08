@@ -49,7 +49,6 @@
     <ClCompile Include="37.c" />
     <ClCompile Include="38.c" />
     <ClCompile Include="39.c" />
-    <ClCompile Include="4.c" />
     <ClCompile Include="40.c" />
     <ClCompile Include="41.c" />
     <ClCompile Include="42.c" />
