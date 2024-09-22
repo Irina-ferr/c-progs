@@ -132,8 +132,5 @@
     <ClCompile Include="64.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="26.c">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
