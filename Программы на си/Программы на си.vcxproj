@@ -20,7 +20,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="18.c" />
-    <ClCompile Include="30.c" />
     <ClCompile Include="31.c" />
     <ClCompile Include="32.c" />
     <ClCompile Include="33.c" />
