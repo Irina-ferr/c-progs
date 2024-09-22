@@ -18,12 +18,6 @@
     <ClCompile Include="18.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="25.c">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
-    <ClCompile Include="26.c">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="27.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
@@ -136,6 +130,9 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="64.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="26.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
