@@ -7,6 +7,7 @@ int main() {
     float a; // значение a
     float result; // результат
 
+
     // запрашиваем значени€ x и y
     printf("¬ведите значение a: ");
     scanf("%lf", &a);
