@@ -12,6 +12,7 @@ int main() {
     char* locale = setlocale(LC_ALL, "rus");
     int n; // Количество значений аргумента
     printf("Введите количество значений аргумента: ");
+    #pragma warning(suppress : 4996)
     scanf("%d", &n);
 
     // Проверка на корректность ввода
