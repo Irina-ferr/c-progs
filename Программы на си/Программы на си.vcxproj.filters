@@ -18,9 +18,6 @@
     <ClCompile Include="18.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="19.c">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="20.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
