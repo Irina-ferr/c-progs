@@ -5,21 +5,21 @@
 int main() {
     const char* name = "IRINA";
 
-    // ѕолучаем ширину консоли (можно задать вручную)
-    int consoleWidth = 80; // «адайте нужную ширину консоли
-    int consoleHeight = 20; // «адайте нужную высоту консоли
+    // получаем ширину консоли
+    int consoleWidth = 80; 
+    int consoleHeight = 20; 
 
-    // ѕечатаем им€ в углах консоли
-    printf("%-*s\n", consoleWidth, name); // ¬ерхний левый угол
-    printf("%*s\n", consoleWidth - strlen(name), name); // ¬ерхний правый угол
+    // печатаем им€ в углах консоли
+    printf("%-*s\n", consoleWidth, name); // верхний левый угол
+    printf("%*s\n", consoleWidth - strlen(name), name); // верхний правый угол
 
-    // ѕечатаем пустые строки до нижнего кра€
+    // печатаем пустые строки до нижнего кра€
     for (int i = 1; i < consoleHeight - 1; i++) {
         printf("\n");
     }
 
-    printf("%-*s\n", consoleWidth, name); // Ќижний левый угол
-    printf("%*s\n", consoleWidth - strlen(name), name); // Ќижний правый угол
+    printf("%-*s\n", consoleWidth, name); // нижний левый угол
+    printf("%*s\n", consoleWidth - strlen(name), name); // нижний правый угол
 
     return 0;
 }

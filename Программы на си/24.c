@@ -5,12 +5,12 @@
 #include <stdio.h>
 
 int main() {
-    int multiplier = 5; // „исло, на которое будем умножать
+    int multiplier = 5; // число, на которое будем умножать
 
-    // ÷икл от 1 до 10 дл€ вывода таблицы умножени€
+    // цикл от 1 до 10 дл€ вывода таблицы умножени€
     for (int i = 1; i <= 10; i++) {
-        int result = i * multiplier; // ¬ычисление результата
-        printf("%d x %d = %d\n", i, multiplier, result); // ¬ывод в нужном формате
+        int result = i * multiplier; // вычисление результата
+        printf("%d x %d = %d\n", i, multiplier, result); // вывод в нужном формате
     }
 
     return 0;
