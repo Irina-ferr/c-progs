@@ -1,1 +1,37 @@
-#include <locale.h>#include <stdio.h>#pragma warning(disable : 4996)#define SIZE 10int main() {    setlocale(LC_ALL, "RUS");    signed char arr[SIZE]; // объявление массива    // Ввод массива    printf("Введите %d целых чисел (от -128 до 127):\n", SIZE);    for (int i = 0; i < SIZE; i++) {        printf("arr[%d]: ", i);        scanf("%hhd", &arr[i]); // используем %hhd для чтения signed char    }    // Проверка на упорядоченность по убыванию    int isSortedDescending = 1; // флаг упорядоченности    for (int i = 0; i < SIZE - 1; i++) {        if (arr[i] < arr[i + 1]) { // если текущий элемент меньше следующего            isSortedDescending = 0; // устанавливаем флаг в 0            break; // прерываем цикл, так как порядок нарушен        }    }    // Вывод результата    if (isSortedDescending) {        printf("Элементы массива упорядочены по убыванию.\n");    }    else {        printf("Элементы массива не упорядочены по убыванию.\n");    }    return 0;}
+п»ї#include <locale.h>
+#include <stdio.h>
+#pragma warning(disable : 4996)
+#define SIZE 10
+
+
+int main() {
+    setlocale(LC_ALL, "RUS");
+    signed char arr[SIZE]; // РѕР±СЉСЏРІР»РµРЅРёРµ РјР°СЃСЃРёРІР°
+
+     //Р’РІРѕРґ РјР°СЃСЃРёРІР°
+    printf("Р’РІРµРґРёС‚Рµ %d С†РµР»С‹С… С‡РёСЃРµР» (РѕС‚ -128 РґРѕ 127):\n", SIZE);
+    for (int i = 0; i < SIZE; i++) {
+        printf("arr[%d]: ", i);
+        scanf("%hhd", &arr[i]); // РёСЃРїРѕР»СЊР·СѓРµРј %hhd РґР»СЏ С‡С‚РµРЅРёСЏ signed char
+    }
+
+     //РџСЂРѕРІРµСЂРєР° РЅР° СѓРїРѕСЂСЏРґРѕС‡РµРЅРЅРѕСЃС‚СЊ РїРѕ СѓР±С‹РІР°РЅРёСЋ
+    int isSortedDescending = 1; // С„Р»Р°Рі СѓРїРѕСЂСЏРґРѕС‡РµРЅРЅРѕСЃС‚Рё
+
+    for (int i = 0; i < SIZE - 1; i++) {
+        if (arr[i] < arr[i + 1]) { // РµСЃР»Рё С‚РµРєСѓС‰РёР№ СЌР»РµРјРµРЅС‚ РјРµРЅСЊС€Рµ СЃР»РµРґСѓСЋС‰РµРіРѕ
+            isSortedDescending = 0; // СѓСЃС‚Р°РЅР°РІР»РёРІР°РµРј С„Р»Р°Рі РІ 0
+            break; // РїСЂРµСЂС‹РІР°РµРј С†РёРєР», С‚Р°Рє РєР°Рє РїРѕСЂСЏРґРѕРє РЅР°СЂСѓС€РµРЅ
+        }
+    }
+
+     //Р’С‹РІРѕРґ СЂРµР·СѓР»СЊС‚Р°С‚Р°
+    if (isSortedDescending) {
+        printf("Р­Р»РµРјРµРЅС‚С‹ РјР°СЃСЃРёРІР° СѓРїРѕСЂСЏРґРѕС‡РµРЅС‹ РїРѕ СѓР±С‹РІР°РЅРёСЋ.\n");
+    }
+    else {
+        printf("Р­Р»РµРјРµРЅС‚С‹ РјР°СЃСЃРёРІР° РЅРµ СѓРїРѕСЂСЏРґРѕС‡РµРЅС‹ РїРѕ СѓР±С‹РІР°РЅРёСЋ\n");
+    }
+
+    return 0;
+}
