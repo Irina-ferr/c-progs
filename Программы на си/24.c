@@ -3,8 +3,11 @@
 //2 x 5 = 10,
 //...
 #include <stdio.h>
+#pragma warning(disable : 4996)
 
+#include <locale.h>
 int main() {
+    char* locale = setlocale(LC_ALL, "RUS");
     int multiplier = 5; // число, на которое будем умножать
 
     // цикл от 1 до 10 для вывода таблицы умножения

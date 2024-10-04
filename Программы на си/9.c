@@ -1,7 +1,11 @@
 //n Ц четырехзначное целое число. «апишите выражение, позвол€ющее узнать его первую цифру. 
 #include <stdio.h>
 
+#include <locale.h>
+#pragma warning(disable : 4996)
+
 int main() {
+    char* locale = setlocale(LC_ALL, "RUS");
     int n; // введенное числ
     int first_digit; // перва€ цифра
 

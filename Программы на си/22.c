@@ -5,9 +5,11 @@
 //	двух сторон окажетс€ меньше третьей стороны).
 #include <stdio.h>
 #include <math.h>
+#pragma warning(disable : 4996)
 
+#include <locale.h>
 int main() {
-    double a, b, c;
+    char* locale = setlocale(LC_ALL, "RUS");    double a, b, c;
 
     // ввод сторон треугольника
     printf("¬ведите длины сторон треугольника (a, b, c):\n");

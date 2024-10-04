@@ -1,4 +1,4 @@
-//Сколько полных минут и часов содержится в x секундах ?
+////Сколько полных минут и часов содержится в x секундах ?
 #include <stdio.h>
 #include <locale.h>
 
@@ -7,7 +7,8 @@ int main() {
     int x; // количество секунд
     int hours, minutes, seconds;
 
-   
+    #pragma warning(disable : 4996)
+
     printf("Введите количество секунд: ");
     scanf("%d", &x);
 

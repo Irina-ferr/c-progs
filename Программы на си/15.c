@@ -1,8 +1,11 @@
 //Создайте программу, решающую квадратные уравнения. Программа должна запрашивать значения коэффициентов и печатать вычисленные корни. 
 #include <stdio.h>
 #include <math.h> 
+#pragma warning(disable : 4996)
 
+#include <locale.h>
 int main() {
+    char* locale = setlocale(LC_ALL, "RUS");
     double a, b, c; // коэфф квадратного уравнения
     double D;       // дискриминант
     double x1, x2; // корни уравнения

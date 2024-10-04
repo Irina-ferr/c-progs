@@ -3,6 +3,7 @@
 //у пользователя.
 #include <stdio.h>
 #include <locale.h>
+#pragma warning(disable : 4996)
 
 int main() {
     char* locale = setlocale(LC_ALL, "rus");

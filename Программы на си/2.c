@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <locale.h>
 int main(void) {
+	#pragma warning(disable : 4996)
 	char* locale = setlocale(LC_ALL, "RUS");
 	int n;
 	printf("Введите номер нечетного числа: ");

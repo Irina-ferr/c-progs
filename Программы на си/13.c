@@ -1,8 +1,11 @@
 //Резиновое кольцо диаметром d разрезали в n местах. Какова средняя длина получившихся кусков?
 #include <stdio.h>
 #include <math.h> 
+#pragma warning(disable : 4996)
 
+#include <locale.h>
 int main() {
+    char* locale = setlocale(LC_ALL, "RUS");
     float d; // диаметр кольца
     int n;   // количество разрезов
 

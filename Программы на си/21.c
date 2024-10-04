@@ -7,8 +7,11 @@
 //что корней нет.А если все коэффициенты равны нулю, сообщите, что любое число
 //является корнем.
 #include <stdio.h>
+#pragma warning(disable : 4996)
 
+#include <locale.h>
 int main() {
+    char* locale = setlocale(LC_ALL, "RUS");
     double a, b, c;
     printf("Введите коэффициенты a, b и c (ax^2 + bx + c = 0):\n");
     scanf("%lf %lf %lf", &a, &b, &c);

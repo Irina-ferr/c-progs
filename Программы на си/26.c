@@ -1,8 +1,11 @@
 //Выведите имя в углах экрана
 #include <stdio.h>
 #include <string.h>
+#pragma warning(disable : 4996)
 
+#include <locale.h>
 int main() {
+    char* locale = setlocale(LC_ALL, "RUS");
     const char* name = "IRINA";
 
     // получаем ширину консоли

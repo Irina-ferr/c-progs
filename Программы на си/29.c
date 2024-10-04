@@ -2,6 +2,8 @@
 Т.е.первые члены последовательности – 1, 3 (1 + 2), 6 (1 + 2 + 3), 10 (1 + 2 + 3 + 4) и т.д.*/
 #include <stdio.h>
 #include <locale.h>
+ #pragma warning(disable : 4996)
+
 int main() {
     char* locale = setlocale(LC_ALL, "rus");
 

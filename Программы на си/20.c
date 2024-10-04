@@ -1,6 +1,8 @@
 //Напишите программу, которая запрашивает значения x, y, z, а затем выводит
 //значение следующих функций max(x, min(y, z)), а также min(min(x, y), z).
 #include <stdio.h>
+#include <locale.h>
+#pragma warning(disable : 4996)
 
 // функция для нахождения максимума двух чисел
 int max(int a, int b) {
@@ -13,7 +15,7 @@ int min(int a, int b) {
 }
 
 int main() {
-    int x, y, z;
+    char* locale = setlocale(LC_ALL, "RUS");    int x, y, z;
 
     // запрашиваем у пользователя ввод значений x, y и z
     printf("Введите значение x: ");

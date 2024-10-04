@@ -1,22 +1,23 @@
 //Сколько нечетных чисел на отрезке(a, b), a и b – целые ?
 #include <stdio.h>
 #include <locale.h>
-
+#pragma warning(disable : 4996)
 int count_odd_numbers(int a, int b) {
-
-    a++;
-    b--;
 
     if (a > b) {
         return 0;
     }
+    a++;
+    b--;
+    int count=0;
+    for (int i = a; i <= b; i++) {
+        if (i % 2 != 0) {
+            count++;
+        }
 
-    // (количество чисел в диапазоне + 1) / 2
-    int count = (b - a + 1 ) / 2;
-
+    }
     return count;
-}
-
+    }
 int main() {
     char* locale = setlocale(LC_ALL, "rus");
 

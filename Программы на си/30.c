@@ -1,6 +1,7 @@
 //Напишите программу вычисления факториала введенного пользователем числа
 #include <stdio.h>
 #include <locale.h>
+#pragma warning(disable : 4996)
 
 // функция для вычисления факториала
 unsigned long long factorial(int n) {

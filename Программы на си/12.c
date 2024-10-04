@@ -1,7 +1,10 @@
 //Бревно длиной L распилили в n местах. Какова средняя длина получившихся кусков? 
 #include <stdio.h>
+#pragma warning(disable : 4996)
 
+#include <locale.h>
 int main() {
+    char* locale = setlocale(LC_ALL, "RUS");
     float L; // длина бревна
     int n;   // количество распилов
 

@@ -1,6 +1,7 @@
 //В доме 9 этажей, на каждом этаже одного подъезда по 4 квартиры. В каком подъезде и на каком этаже находится n-я квартира? 
 #include <stdio.h>
 #include <locale.h>
+#pragma warning(disable : 4996)
 
 int main() {
     char* locale = setlocale(LC_ALL, "rus");

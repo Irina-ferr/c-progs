@@ -4,6 +4,7 @@
 #include <locale.h>
 int main() {
     char* locale = setlocale(LC_ALL, "rus");
+	  #pragma warning(disable : 4996)
 
     int N; // переменная для хранения значения N
     int sum = 0; // переменная для хранения суммы квадратов

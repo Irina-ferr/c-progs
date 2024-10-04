@@ -1,7 +1,10 @@
 // n и m – целые числа. Запишите выражение, которое давало бы 0, если n кратно m, и 1, если не кратно. 
 #include <stdio.h>
+#pragma warning(disable : 4996)
 
+#include <locale.h>
 int main() {
+    char* locale = setlocale(LC_ALL, "RUS");
     int n, m; // переменные для хранения чисел
     int result; // для хранения результата
 
