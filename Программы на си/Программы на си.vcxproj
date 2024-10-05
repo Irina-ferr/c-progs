@@ -39,6 +39,7 @@
     <ClCompile Include="55.c" />
     <ClCompile Include="56.c" />
     <ClCompile Include="57.c" />
+    <ClCompile Include="57_input.c" />
     <ClCompile Include="58.c" />
     <ClCompile Include="59.c" />
     <ClCompile Include="60.c" />
@@ -46,6 +47,11 @@
     <ClCompile Include="62.c" />
     <ClCompile Include="63.c" />
     <ClCompile Include="64.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="57.txt" />
+    <Text Include="58.txt" />
+    <Text Include="59.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
