@@ -104,5 +104,7 @@
     <Text Include="57.txt" />
     <Text Include="58.txt" />
     <Text Include="59.txt" />
+    <Text Include="input.txt" />
+    <Text Include="signal.txt" />
   </ItemGroup>
 </Project>
